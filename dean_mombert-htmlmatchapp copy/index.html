@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+
+    <meta name="viewport" content="with-device-width, initial-scale=1.0">
+
+    <title>HTML Match App</title>
+</head>
+
+<body>
+    <header>
+
+        <h1>4GTa HTML App!</h1>
+
+    </header>
+
+    <main>
+        <section id="intro">
+            <h2>Introductie</h2>
+            <img src="images/klaslokaal.jpg" alt="" width="300">
+            <a href="https://www.bol.com/">Klik hier voor meer foto's van klaslokalen</a>
+
+        </section>
+        <section id="lijstjes">
+            <h2>Dingen die mogen in een klas</h2>
+            <ul>
+                <li>Luisteren</li>
+                <li>Opletten</li>
+                <li>Studeren</li>
+            </ul>
+
+            <h2>Dingen die niet mogen in een klas</h2>
+            <ol>
+                <li>Roepen</li>
+                <li>Eten</li>
+                <li>Leerkracht irriteren</li>
+            </ol>
+
+        </section>
+
+        <section id="formulier">
+                <form action="">
+                    <fieldset>
+                        <legend>Wat is jouw naam?</legend>
+                        <input type="text" placeholder="Hier schrijf je jouw bijnaam">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Wat is jouw leeftijd?</legend>
+                        <input type="number" name="leeftijd" min="1" max="99">
+                    </fieldset>
+                    <fieldset>
+                       <legend>Welke kleur heeft het klaslokaal</legend> 
+                        <input type="radio" name="kleur" value="rood">Rood lokaal
+                        <input type="radio" name="kleur" value="blauw">Blauw lokaal
+                        <input type="radio" name="kleur" value="groen">Groen lokaal
+                    </fieldset>
+                    <fieldset>
+                       <legend>Wat is er in het klaslokaal aanwezig?</legend> 
+                        <input type="checkbox" name="aanwezig" value="projector">Projector
+                        <input type="checkbox" name="aanwezig" value="stoelen">Stoelen
+                        <input type="checkbox" name="aanwezig" value="banken">Banken
+                    </fieldset>
+                    <fieldset>
+                        <legend>Opmerking:</legend>
+                        <textarea name="opmerking" cols="60" rows="3" placeholder="Schrijf hier je opmerking"></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Hoe heeft u ons gevonden?</legend>
+                        <select name="gevonden" id="">
+                            <option value="blank"></option>
+                            <option value="vrienden">Vrienden</option>
+                            <option value="advertentie">Advertentie</option>
+                            <option value="andere">Andere</option>
+                        </select>
+                    </fieldset>
+                    <button type="submit">Verzenden</button>
+                    <button type="reset">Reset</button>
+                </form>
+        </section>
+    </main>
+</body>
+
+</html>

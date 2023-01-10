@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+
+    <meta name="viewport" content="with-device-width, initial-scale=1.0">
+
+    <title>Match App</title>
+</head>
+
+<body>
+    <header>
+
+        <section id="intro">
+            <img src="images/bergen1.jpg" alt="" width="600">
+        <h1><strong>Berg Forum</strong></h1>
+        <h3>We houden van bergen</h3>
+
+    </header>
+
+    <main>
+        <section id="informatie">
+            Deze forum gaat over bergen:
+           <p>
+            Een berg is in het algemeen hoger en steiler dan een heuvel, maar er bestaat geen vaste definitie voor het onderscheid tussen de twee. Soms wordt de definitie aangehouden dat een berg zich meer dan 200 à 300 meter boven zijn omgeving verheft, een kleinere verheffing wordt dan een heuvel genoemd.
+            </p>
+
+            Er zijn bergen zoals
+            <ul>
+                <li>Alpen</li>
+                <li>Himalayas</li>
+                <li>Drakensbergen</li>
+
+                <li><a href="https://pixabay.com/nl/images/search/bergen/">Bergenfoto's</a></li>
+            </ul>
+
+        ---------------------------------------
+        </section>
+
+        <section id="login">
+            <img src="images/bergen2.jpg" alt="" width="600">
+            <form action="">
+                <fieldset>
+                    <legend>Login Informatie</legend>
+                    <input type="text" name="naam" placeholder="Naam">
+                    <input type="text" name="wachtwoord" placeholder="Wachtwoord">
+                </fieldset>
+                <fieldset>
+                    <legend>Leeftijd</legend>
+                    <input type="number" name="leeftijd" min="1" max="120">
+                </fieldset>
+                <button type="submit">Login</button>
+                <button type="reset">Resetten</button>
+            </form>
+            ---------------------------------------
+        </section>
+
+        <section id="bergenInformatie">
+            <h2>Bergen Informatie</h2>
+
+            <form action="">
+                <fieldset>
+                    <legend>Welke bergen vind jij het beste?</legend>
+                    <input type="radio" name="bergen" value="alpen">Alpen
+                    <input type="radio" name="bergen" value="himalayas">Himalayas
+                    <input type="radio" name="bergen" value="drakensbergen">Drakensbergen
+                </fieldset>
+                <fieldset>
+                    <legend>Naar welke bergen zou jij gaan?</legend>
+                    <input type="checkbox" name="bergenGaan" value="alpen">Alpen
+                    <input type="checkbox" name="bergenGaan" value="himalayas">Himalayas
+                    <input type="checkbox" name="bergenGaan" value="drakensbergen">Drakensbergen
+                </fieldset>
+                <fieldset>
+                    <legend>Wat denk jij over bergen?</legend>
+                    <textarea name="meningBergen" placeholder="Mening over bergen" cols="40" rows="3"></textarea>
+                </fieldset>
+                <fieldset>
+                    <legend>Wie zou je meepakken om te gaan bergklimmen?</legend>
+                    <select name="wieMeepakken" id="">
+                        <option value="alleen">Alleen</option>
+                        <option value="vrienden">Vrienden</option>
+                        <option value="familieleden">Familieleden</option>
+                        <option value="onbekende">Onbekende</option>
+                    </select>
+                </fieldset>
+
+                <button type="submit">Bijwerken</button>
+                <button type="reset">Resetten</button>
+            </form>
+        </section>
+
+        
+    </main>
+</body>
+
+</html>
