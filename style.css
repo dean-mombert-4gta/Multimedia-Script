@@ -1,0 +1,7 @@
+body {
+    background-color: hsl(0, 0%, 68%);
+}
+.flexbox {
+    background-color: azure;
+    display: flex;
+}
