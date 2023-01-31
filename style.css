@@ -1,24 +1,56 @@
+/*dozen & tekst*/
+h2 {margin: 5px;}
+p {margin: 5px 5px 5px 5px;}
+ul {margin-left: 20px;}
+a {color: hsl(0, 100%, 60%);}
+
 .flexbox {
-    background-color: azure;
     display: flex;
 }
 .col {
     padding: 4px;
     margin: 4px;
-    border: 1px solid black;
+    margin-right: 10px;
+    border-radius: 8px;
+    border: 2px solid hsla(0, 70%, 66%, 0.641);
+    background-image: linear-gradient(
+        90deg,
+        hsla(19, 41%, 38%, 0.491),
+        hsla(0, 47%, 49%, 0.268)
+    );
 }
-.left {
-    width: 30%;
-}
-.right {
-    width: 70%;
-}
+.left {flex: 76%;}
+.right {flex: 24%;}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/*koptitel*/
+h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: -webkit-linear-gradient(hsl(0, 0%, 100%), hsl(16, 23%, 66%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*achtergrond*/
 body {
-    background-color: hsl(0, 0%, 68%);
+    background-image: linear-gradient(
+        hsla(0, 70%, 41%, 0.338),
+        hsla(293, 71%, 32%, 0.247)
+    ),
+    url("file:///C:/Users/DeanMombert/Downloads/background.jpg");
+
+    background-size: cover;
+    background-position: center;
+    margin: 20 100px;
+    color: hsl(0, 0%, 100%);
+    font-family:sans-serif;
+}
+
+img {
+    margin: 10px;
+    border-radius: 8px;
 }
