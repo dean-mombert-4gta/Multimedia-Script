@@ -30,7 +30,7 @@ nav li {
 }
 nav a {
     display:block;
-    padding: 18px;
+    padding: 15px;
     font-size: larger;
     background-color: hsl(0, 0%, 82%);
     color:hsl(0, 100%, 50%);
