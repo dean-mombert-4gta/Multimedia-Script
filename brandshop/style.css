@@ -10,6 +10,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    gap: 2rem;
 }
 header {
     background-color: hsl(0, 0%, 93%);
@@ -47,10 +48,30 @@ header input {
     color: hsl(0, 0%, 58%);
     font-size: 15px;
     z-index: 2;
-    left: 1103px;
+    left: 1086px;
     top: 19px;
 }
+.videoframe {
+    overflow: hidden;
+    margin-bottom: 3rem;
+    max-height: 50vh;
+    display: flex;
+    align-items: center;
+}
+video {
+    width: 100%;
+}
 
+.aanbevolen h2 {
+    margin-left: 3rem;
+}
+.flex-item {
+    margin: auto 3rem auto 3rem;
+    flex: 1;
+}
 img {
-    width: 30%;
+    width: 100%;
+}
+p {
+    color: gray;
 }
