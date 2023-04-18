@@ -10,7 +10,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    gap: 2rem;
+    gap: 0rem;
 }
 header {
     background-color: hsl(0, 0%, 93%);
@@ -23,7 +23,7 @@ header nav a {
     text-decoration: none;
 }
 header nav a:hover {
-    border-bottom: 2px solid black;
+    border-bottom: 3px solid black;
 }
 header nav li {
     display: inline;
@@ -66,7 +66,7 @@ video {
     margin-left: 3rem;
 }
 .flex-item {
-    margin: auto 3rem auto 3rem;
+    margin: auto 1rem auto 1rem;
     flex: 1;
 }
 img {
