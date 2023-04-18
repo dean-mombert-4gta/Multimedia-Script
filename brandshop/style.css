@@ -44,12 +44,12 @@ header input {
     border: 0;
 }
 .zoekbar i {
-    position: absolute;
+    position: relative;
     color: hsl(0, 0%, 58%);
     font-size: 15px;
     z-index: 2;
-    left: 1086px;
-    top: 19px;
+    left: 12.5%;
+    bottom: 1%;
 }
 .videoframe {
     overflow: hidden;
@@ -74,4 +74,21 @@ img {
 }
 p {
     color: gray;
+}
+
+.look h2 {
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+figure {
+    position: relative;
+}
+figcaption {
+    position: absolute;
+    bottom: 10%;
+    left: 13%;
+    font-size:large;
+    background-color: hsl(0, 0%, 93%);
+    padding: 7px 14px;
+    border-radius: 50px;
 }
