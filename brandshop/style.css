@@ -143,9 +143,6 @@ footer {
     color: hsl(0, 0%, 91%);
     font-family: Gontserrat, sans-serif;
 }
-footer .flex-container:first-child {
-    margin-bottom: 2rem;
-}
 footer li {
     padding-top: 0.5rem;
     list-style: none;
