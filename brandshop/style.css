@@ -1,4 +1,5 @@
 /*!Pagina!*/
+@font-face { font-family: Gontserrat; src: url('fonts/Gontserrat.ttf'); } 
 * {
     margin: 0;
     padding: 0;
@@ -136,20 +137,34 @@ figure {
 
 /*!Footer!*/
 footer {
-    margin-top: 3rem;
-    padding: 2rem;
-    background-color: hsl(0, 0%, 15%);
+    margin-top: 2rem;
+    padding: 2vw 8vw;
+    background-color: hsl(0, 0%, 10%);
     color: hsl(0, 0%, 91%);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-family: Gontserrat, sans-serif;
 }
-
-.links {
-    text-align: left;
-    width:49%;
-    display: inline-block;
+footer .flex-container:first-child {
+    margin-bottom: 2rem;
 }
-.rechts {
-    text-align: right;
-    width:50%;
-    display: inline-block;
+footer li {
+    padding-top: 0.5rem;
+    list-style: none;
+}
+footer li a {
+    color: white;
+    text-decoration: none;
+}
+.onderdelen a  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: gray;
+}
+footer i {
+    margin-left: 1rem;
+    font-size: 2.3rem;
+    color: gray;
+    margin-bottom: 6rem;
+}
+footer i:hover {
+    transform: scale(1.1);
 }
