@@ -31,7 +31,7 @@ header {
 input {
     padding: 7px;
     border-radius: 5rem;
-    color: hsl(0, 0%, 58%);
+    border: 0;
 }
 header nav ul {
     display: flex;
