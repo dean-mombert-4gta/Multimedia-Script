@@ -28,6 +28,11 @@ header {
     padding: 7px;
     margin: 0 4rem;
 }
+input {
+    padding: 7px;
+    border-radius: 5rem;
+    color: hsl(0, 0%, 58%);
+}
 header nav ul {
     display: flex;
     justify-content: space-between;
